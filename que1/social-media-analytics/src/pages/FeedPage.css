@@ -1,0 +1,21 @@
+.feed-container {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-group-item {
+    border-left: 5px solid #007bff;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    background: #f0f5ff;
+  }
+  
+  h5 {
+    font-weight: bold;
+    color: #333;
+  }
+  

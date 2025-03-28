@@ -1,0 +1,71 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background: linear-gradient(120deg, #f8f9fa, #e3e8f0);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  /* Main Container */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Page Headings */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  /* Styled Cards */
+  .card {
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: white;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Animated List Items */
+  .list-group-item {
+    border: none;
+    padding: 15px;
+    background: white;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    background: #e3f2fd;
+  }
+  
+  /* Smooth Fade-in Animation */
+  .animated-fade {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
